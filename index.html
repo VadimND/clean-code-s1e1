@@ -8,44 +8,44 @@
   <body class="body">
     <header class="intro">
         <img src="./eisenhower-matrix.jpg" class="intro__img" alt="Eisenhower Matrix">
-        <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+        <a class="intro__more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="center-elem">
-      <section id="adding-elem">
-        <label for="new-task" class="label new-task">Add Item</label>
+      <section class="center-elem__add-elem">
+        <label for="new-task" class="center-elem__label center-elem__label__task__new">Add Item</label>
         <div class="task-row">
-          <input id="new-task" class="input-txt task" type="text">
-          <button class="btn">Add</button>
+          <input id="new-task" class="center-elem__input center-elem__input__task__new" type="text">
+          <button class="center-elem__btn">Add</button>
         </div>
       </section>
-      <section class="todo">
-        <h3 class="h3">Todo</h3>
-        <ul class="ul" id="incomplete-tasks">
-          <li class="li">
-            <input type="checkbox" class="input-chbox">
-            <label class="label task">Pay Bills</label>
-            <input type="text" class="input-txt task">
-            <button class="btn edit">Edit</button>
-            <button class="btn delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
+      <section class="center-elem__todo">
+        <h3 class="center-elem__h3">Todo</h3>
+        <ul class="center-elem__ul" id="incomplete-tasks">
+          <li class="center-elem__li">
+            <input type="checkbox" class="center-elem__input__chbox">
+            <label class="center-elem__label center-elem__label__task">Pay Bills</label>
+            <input type="text" class="center-elem__input center-elem__input__task">
+            <button class="center-elem__btn center-elem__btn__edit">Edit</button>
+            <button class="center-elem__btn center-elem__btn__delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
           </li>
-          <li class="li edit-mode">
-            <input type="checkbox" class="input-chbox">
-            <label class="label task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="input-txt task">
-            <button class="btn edit">Save</button>
-            <button class="btn delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
+          <li class="center-elem__li edit-mode">
+            <input type="checkbox" class="center-elem__input__chbox">
+            <label class="center-elem__label center-elem__label__task">Go Shopping</label>
+            <input type="text" value="Go Shopping" class="center-elem__input center-elem__input__task">
+            <button class="center-elem__btn center-elem__btn__edit">Save</button>
+            <button class="center-elem__btn center-elem__btn__delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
           </li>
         </ul>
       </section>
-      <section class="completed">
-        <h3 class="h3">Completed</h3>
-        <ul class="ul" id="completed-tasks">
-          <li class="li">
-            <input type="checkbox" class="input-chbox" checked>
-            <label class="label task">See the Doctor</label>
-            <input type="text" class="input-txt task">
-            <button class="btn edit">Edit</button>
-            <button class="btn delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
+      <section class="center-elem__completed">
+        <h3 class="center-elem__h3">Completed</h3>
+        <ul class="center-elem__ul" id="completed-tasks">
+          <li class="center-elem__li">
+            <input type="checkbox" class="center-elem__input__chbox" checked>
+            <label class="center-elem__label center-elem__label__task">See the Doctor</label>
+            <input type="text" class="center-elem__input enter-elem__input__task">
+            <button class="center-elem__btn center-elem__btn__edit">Edit</button>
+            <button class="center-elem__btn center-elem__btn__delete"><img src="./remove.svg" class="delete__img" alt="Remove icon"></button>
           </li>
         </ul>
       </section>
