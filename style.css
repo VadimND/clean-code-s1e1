@@ -28,9 +28,11 @@ input,button{
   font-family: fantasy, cursive;
 }
 @media (max-width:768px) {
+
   .intro {
     text-align: center;
   }
+  
 }
 .center-elem {
   display: block;
